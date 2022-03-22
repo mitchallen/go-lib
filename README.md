@@ -26,8 +26,8 @@ import (
 )
 
 func main() {
-    fmt.Println(golib.Add(2,3))
-    fmt.Println(golib.Subtract(2,3))
+    fmt.Println(lib.Add(2,3))
+    fmt.Println(lib.Subtract(2,3))
 }
 ```
 
