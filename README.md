@@ -20,13 +20,13 @@ $ go get github.com/mitchallen/go-lib@v0.1.0
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/mitchallen/go-lib"
+    "github.com/mitchallen/go-lib"
 )
 
 func main() {
-	fmt.Println(golib.Add(2,3))
+    fmt.Println(golib.Add(2,3))
     fmt.Println(golib.Subtract(2,3))
 }
 ```
